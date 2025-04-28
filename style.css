@@ -26,7 +26,6 @@ h1 {
 
 .container {
     width: 60%;
-    height: 50%;
     background-color: #ffffff;
     border-radius: 25px;
     padding: 36px;
@@ -205,12 +204,6 @@ button:active {
     background-color: #9FE8DF;
 }
 
-@media screen and (max-width: 1500px) {
-    .container{
-        height: 60%;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .tip-amount, .total{
         flex-wrap: wrap;
@@ -229,7 +222,6 @@ button:active {
     .container{
         flex-direction: column;
         align-items: center;
-        height: 120vh;
         width: 350px;
     }
 
